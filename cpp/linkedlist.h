@@ -2,8 +2,14 @@
 using namespace td;
 
 
-class node{
+class Node {
 public:
-    long num;
-    node* next;
+    int data;
+    Node *next;
+    Node(int data) {
+    this->data = data;
+    this->next = nullptr;
+    }
 };
+
+void add
