@@ -6,10 +6,14 @@ class Node {
 public:
     int data;
     Node *next;
-    Node(int data) {
+};
+Node(int data) {
     this->data = data;
     this->next = nullptr;
-    }
-};
+}
 
-void add
+void addnode(Node*  node, double valu){
+    if(node->next == nullptr){
+        Node 
+    }
+}

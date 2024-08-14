@@ -1,12 +1,8 @@
 #include <iostream>
+#include "linkedlist.h"
 using namespace std;
 int main(void){
-    long num;
-    cin >> num;
-    int i = 10;
-    while(){
-        int n = num % i;
-        cout << n << endl;
-    }
+    Node* first(23);
+
     return 0;
 }
