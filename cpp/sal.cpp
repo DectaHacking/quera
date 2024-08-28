@@ -1,11 +1,8 @@
 #include <iostream>
 using namespace std;
 int main(void){
-    int num;
+    char num[4];
     cin >> num;
-    long hel;
-    hel = num % 100;
-    cout << (num - hel) / 100 << "\t" << hel;
-
+    cout << "saal:" << num[0] << num[1] << endl << "maah:" << num[2] << num[3];
     return 0;
 }
